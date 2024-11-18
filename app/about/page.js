@@ -65,9 +65,11 @@ export default function About() {
                     </ul>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <img
-                        src='https://www.loginradius.com/blog/static/6d170d83a7074847494831a6df861d3c/d3746/cover-auth.jpg'
+                    <Image
+                        src='/cover-auth.jpg'
                         alt='Description of image'
+                        width={1024}
+                        height={400}
                         className='rounded-lg h-96 w-full object-cover'
                     />
                 </div>
